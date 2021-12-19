@@ -3,8 +3,8 @@
   <Width>1000</Width>
   <Height>650</Height>
   <BackgroundColor>PaleGoldenrod</BackgroundColor>
-  <pathToUsers>C:\Users\Grynia\Source\Repos\Gryniam\JonWithXML\Library\bin\Debug\Resources\Users.csv</pathToUsers>
+  <pathToUsers>C:\Users\Grynia\source\repos\Gryniam\JonWithXML\Library\bin\Debug\Resources\Users.csv</pathToUsers>
   <pathToAdmins>C:\Study\Library\Library\bin\Debug\Resources\Admins.xlsx</pathToAdmins>
-  <pathToBooks>C:\Users\Grynia\Source\Repos\Gryniam\JonWithXML\Library\bin\Debug\Resources\Books.xml</pathToBooks>
-  <pathToUsersBooks>C:\Users\Grynia\Source\Repos\Gryniam\JonWithXML\Library\bin\Debug\Resources\UsersBooks.xml</pathToUsersBooks>
+  <pathToBooks>C:\Users\Grynia\source\repos\Gryniam\JonWithXML\Library\bin\Debug\Resources\Books.xml</pathToBooks>
+  <pathToUsersBooks>C:\Users\Grynia\source\repos\Gryniam\JonWithXML\Library\bin\Debug\Resources\UsersBooks.xml</pathToUsersBooks>
 </properities>
