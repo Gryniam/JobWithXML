@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<properities>
+  <Width>1000</Width>
+  <Height>650</Height>
+  <BackgroundColor>PaleGoldenrod</BackgroundColor>
+  <pathToUsers>C:\Study\Library\Library\bin\Debug\Resources\Users.csv</pathToUsers>
+  <pathToAdmins>C:\Study\Library\Library\bin\Debug\Resources\Admins.xlsx</pathToAdmins>
+  <pathToBooks>C:\Study\Library\Library\bin\Debug\Resources\Books.xml</pathToBooks>
+  <pathToUsersBooks>C:\Study\Library\Library\bin\Debug\Resources\UsersBooks.xml</pathToUsersBooks>
+</properities>
