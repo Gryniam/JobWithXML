@@ -122,9 +122,9 @@ namespace Library
             this.checkPostLabel.ForeColor = System.Drawing.Color.Red;
             this.checkPostLabel.Location = new System.Drawing.Point(44, 498);
             this.checkPostLabel.Name = "checkPostLabel";
-            this.checkPostLabel.Size = new System.Drawing.Size(176, 17);
+            this.checkPostLabel.Size = new System.Drawing.Size(168, 17);
             this.checkPostLabel.TabIndex = 10;
-            this.checkPostLabel.Text = "Пошта введена корректно";
+            this.checkPostLabel.Text = "Пошта введена коректно";
             // 
             // checkBoxesLabel
             // 
