@@ -43,7 +43,7 @@ namespace Library
             }
             if(!(File.Exists(Program.wanted_path + "\\Properities.xml")))
             {
-                FileGenerator.Properities(Program.wanted_path + "\\Properities.xml");
+                FileGenerator.Properties(Program.wanted_path + "\\Properities.xml");
             }
             checkConnecting();
             
@@ -98,7 +98,7 @@ namespace Library
                     DialogResult dialog = MessageBox.Show("Файл Properities не знайдений, згенерувати?", "Error", MessageBoxButtons.YesNo);
                     if (dialog == DialogResult.Yes)
                     {
-                        FileGenerator.Properities(Program.wanted_path + "\\Properities.xml");
+                        FileGenerator.Properties(Program.wanted_path + "\\Properities.xml");
                     }
                 }
             }

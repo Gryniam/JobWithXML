@@ -13,7 +13,7 @@ namespace Library
 {
     class FileGenerator
     {
-        public static void Properities(string Path)
+        public static void Properties(string Path)
         {
 
             try
