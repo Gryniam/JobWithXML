@@ -334,5 +334,10 @@ namespace Library
         {
             weatherLabel.Text = "Weather: "+Parse.GetWeather();
         }
+
+        private void allbooksGrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

@@ -49,10 +49,18 @@ namespace Library
             this.loginBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.serverButton = new System.Windows.Forms.Button();
+            this.AboutAuthoLabel = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.GitLinkLabel = new System.Windows.Forms.Label();
+            this.InstagramLinkLabel = new System.Windows.Forms.Label();
+            this.AuthorPanel = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
             this.LoginHeadPanel.SuspendLayout();
             this.loginpanel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.AuthorPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // ConnectButton
@@ -94,6 +102,7 @@ namespace Library
             this.LoginHeadPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(107)))), ((int)(((byte)(193)))));
             this.LoginHeadPanel.Controls.Add(this.openAdminButton);
             this.LoginHeadPanel.Controls.Add(this.HideLoginLabel);
+            this.LoginHeadPanel.Controls.Add(this.AboutAuthoLabel);
             this.LoginHeadPanel.Controls.Add(this.CloseLoginLabel);
             this.LoginHeadPanel.Controls.Add(this.ConnectButton);
             this.LoginHeadPanel.Controls.Add(this.ChangeXMLButton);
@@ -334,13 +343,95 @@ namespace Library
             this.serverButton.UseVisualStyleBackColor = true;
             this.serverButton.Click += new System.EventHandler(this.serverButton_Click);
             // 
+            // AboutAuthoLabel
+            // 
+            this.AboutAuthoLabel.AutoSize = true;
+            this.AboutAuthoLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AboutAuthoLabel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
+            this.AboutAuthoLabel.Location = new System.Drawing.Point(271, 15);
+            this.AboutAuthoLabel.Name = "AboutAuthoLabel";
+            this.AboutAuthoLabel.Size = new System.Drawing.Size(100, 19);
+            this.AboutAuthoLabel.TabIndex = 4;
+            this.AboutAuthoLabel.Text = "About Author";
+            this.AboutAuthoLabel.Click += new System.EventHandler(this.AboutAuthoLabel_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(129, 150);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(0, 25);
+            this.label8.TabIndex = 5;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Location = new System.Drawing.Point(72, 84);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(502, 88);
+            this.label9.TabIndex = 6;
+            this.label9.Text = "Hrynkiv Vladyslav\r\n\r\nStudent of Vasyl Stefanyk Precarpathian National University\r" +
+    "\nSpecialty of computer sciences\r\n";
+            // 
+            // GitLinkLabel
+            // 
+            this.GitLinkLabel.AutoSize = true;
+            this.GitLinkLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.GitLinkLabel.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GitLinkLabel.Location = new System.Drawing.Point(71, 276);
+            this.GitLinkLabel.Name = "GitLinkLabel";
+            this.GitLinkLabel.Size = new System.Drawing.Size(90, 26);
+            this.GitLinkLabel.TabIndex = 7;
+            this.GitLinkLabel.Text = "GitHub";
+            this.GitLinkLabel.Click += new System.EventHandler(this.GitLinkLabel_Click);
+            // 
+            // InstagramLinkLabel
+            // 
+            this.InstagramLinkLabel.AutoSize = true;
+            this.InstagramLinkLabel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.InstagramLinkLabel.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.InstagramLinkLabel.Location = new System.Drawing.Point(420, 276);
+            this.InstagramLinkLabel.Name = "InstagramLinkLabel";
+            this.InstagramLinkLabel.Size = new System.Drawing.Size(117, 26);
+            this.InstagramLinkLabel.TabIndex = 8;
+            this.InstagramLinkLabel.Text = "Instagram";
+            this.InstagramLinkLabel.Click += new System.EventHandler(this.InstagramLinkLabel_Click);
+            // 
+            // AuthorPanel
+            // 
+            this.AuthorPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(176)))), ((int)(((byte)(255)))));
+            this.AuthorPanel.Controls.Add(this.label7);
+            this.AuthorPanel.Controls.Add(this.label9);
+            this.AuthorPanel.Controls.Add(this.InstagramLinkLabel);
+            this.AuthorPanel.Controls.Add(this.GitLinkLabel);
+            this.AuthorPanel.Controls.Add(this.label8);
+            this.AuthorPanel.Location = new System.Drawing.Point(0, 114);
+            this.AuthorPanel.Name = "AuthorPanel";
+            this.AuthorPanel.Size = new System.Drawing.Size(760, 675);
+            this.AuthorPanel.TabIndex = 9;
+            this.AuthorPanel.Visible = false;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(12, 612);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(562, 54);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "Warning! This is only a beta version of the program targeted for use on local dev" +
+    "ices.\r\n\r\nbeta v.0.1.1";
+            // 
             // LoginForm
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(176)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1128, 789);
+            this.Controls.Add(this.AuthorPanel);
             this.Controls.Add(this.serverButton);
             this.Controls.Add(this.loginpanel);
             this.Controls.Add(this.LoginHeadPanel);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginForm";
             this.Activated += new System.EventHandler(this.LoginForm_Activated);
@@ -352,6 +443,8 @@ namespace Library
             this.loginpanel.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.AuthorPanel.ResumeLayout(false);
+            this.AuthorPanel.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -379,5 +472,12 @@ namespace Library
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button openAdminButton;
         private System.Windows.Forms.Button serverButton;
+        private System.Windows.Forms.Label AboutAuthoLabel;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label GitLinkLabel;
+        private System.Windows.Forms.Label InstagramLinkLabel;
+        private System.Windows.Forms.Panel AuthorPanel;
+        private System.Windows.Forms.Label label7;
     }
 }

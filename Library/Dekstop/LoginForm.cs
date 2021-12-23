@@ -9,6 +9,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 namespace Library
@@ -318,6 +319,28 @@ namespace Library
 
             }
             serverButton.Enabled = false;
+        }
+
+        private void GitLinkLabel_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/Gryniam");
+        }
+
+        private void InstagramLinkLabel_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://www.instagram.com/gryniam/?hl=ru");
+        }
+
+        private void AboutAuthoLabel_Click(object sender, EventArgs e)
+        {
+            if(AuthorPanel.Visible == false)
+            {
+                AuthorPanel.Visible = true;
+            }
+            else
+            {
+                AuthorPanel.Visible = false;
+            }
         }
     }
 }
