@@ -29,9 +29,9 @@ namespace Library
         public static string PathToProperities = wanted_path+"\\Properities.xml";
 
 
-        public static string BooksLink = "https://github.com/Gryniam/JonWithXML/blob/master/Library/bin/Debug/Resources/Books.xml";
-        public static string UsersLink = "https://github.com/Gryniam/JonWithXML/blob/master/Library/bin/Debug/Resources/Users.csv";
-        public static string UsersBooksLink = "https://github.com/Gryniam/JonWithXML/blob/master/Library/bin/Debug/Resources/UsersBooks.xml";
+        public static string BooksLink = "https://raw.githubusercontent.com/Gryniam/JonWithXML/master/Library/bin/Debug/Resources/Books.xml";
+        public static string UsersLink = "https://raw.githubusercontent.com/Gryniam/JonWithXML/master/Library/bin/Debug/Resources/Users.csv";
+        public static string UsersBooksLink = "https://raw.githubusercontent.com/Gryniam/JonWithXML/master/Library/bin/Debug/Resources/UsersBooks.xml";
 
 
         public static string EnteredUserLogin = null;
