@@ -120,6 +120,7 @@ namespace Library
             }
             return "Інформація відсутня";
         }
+
         public static void ChangeValue(ref DataGridView table, string Path, string name, int i)
         {
             XmlDocument xDoc = new XmlDocument();
@@ -153,7 +154,6 @@ namespace Library
                 }
             }
             xDoc.Save(Path);
-
         }
         public static void ChangeBookInfoInUser(ref DataGridView table, string Path, string nameBook, int i)
         {
@@ -187,12 +187,12 @@ namespace Library
                                 childnode.InnerText = table[4, i].Value.ToString();
                             }
                         }
-
                     }
                 }
             }
             xDoc.Save(Path);
         }
+
         public static void RemoveBookFromUser(string BookName, string Path)
         {
             XmlDocument xDoc = new XmlDocument();
@@ -295,9 +295,7 @@ namespace Library
                             foreach (var b in books)
                             {
                                 if (b.getYearBook() == Convert.ToInt32(Value))
-                                {
-                                    table.Rows.Add(b.getName());
-                                }
+                                {table.Rows.Add(b.getName());}
                             }
                             grid.DataSource = table;
                             break;
@@ -306,10 +304,8 @@ namespace Library
                         {
                             foreach (var b in books)
                             {
-                                if (b.getAuthor() == Value)
-                                {
-                                    table.Rows.Add(b.getName());
-                                }
+                                if (b.getAuthor().ToLower().Contains(Value.ToLower()))
+                                {table.Rows.Add(b.getName());}
                             }
                             grid.DataSource = table;
                             break;
@@ -319,14 +315,11 @@ namespace Library
                             foreach (var b in books)
                             {
                                 if (b.getGenre() == Value)
-                                {
-                                    table.Rows.Add(b.getName());
-                                }
+                                { table.Rows.Add(b.getName());}
                             }
                             grid.DataSource = table;
                             break;
                         }
-                        
                 }
 
             }

@@ -1,2 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<books />
+<books>
+  <book name="Як добре те що смерті не боюсь я">
+    <year>1986</year>
+    <author>Василь Стус</author>
+    <genre>Вірш</genre>
+    <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Як добре те що смерті не боюсь я.docx</path>
+  </book>
+  <book name="Квіти для Елджернона">
+    <year>1959</year>
+    <author>Деніел Кіз</author>
+    <genre>Роман</genre>
+    <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Квіти для Елджернона.docx</path>
+  </book>
+  <book name="Жага до життя">
+    <year>1907</year>
+    <author>Джек Лондон</author>
+    <genre>Розповідь</genre>
+    <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Жага до життя.docx</path>
+  </book>
+  <book name="Кайдашева сім'я">
+    <year>1879</year>
+    <author>Іван Нечуй-Левицький</author>
+    <genre>Повість</genre>
+    <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Кайдашева сім'я.docx</path>
+  </book>
+  <book name="Тигролови">
+    <year>1946</year>
+    <author>Іван Багряний</author>
+    <genre>Повість</genre>
+    <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Тигролови.docx</path>
+  </book>
+  <book name="Шинель">
+    <year>1841</year>
+    <author>Микола Гоголь</author>
+    <genre>Новела</genre>
+    <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Шинель.docx</path>
+  </book>
+  <book name="Останній листок">
+    <year>1907</year>
+    <author>О.Генрі</author>
+    <genre>Новела</genre>
+    <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Останній листок.docx</path>
+  </book>
+  <book name="Портрет Доріана Грея">
+    <year>1890</year>
+    <author>Оскар Уайльд</author>
+    <genre>Роман</genre>
+    <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Портрет Доріана Грея.docx</path>
+  </book>
+  <book name="Рукавичка">
+    <year>1790</year>
+    <author>Фрідріх Шиллер</author>
+    <genre>Казка</genre>
+    <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Рукавичка.docx</path>
+  </book>
+  <book name="Книга">
+    <year>1640</year>
+    <author>Автор книги</author>
+    <genre>жанр</genre>
+    <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Книга.docx</path>
+  </book>
+</books>

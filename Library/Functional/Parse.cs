@@ -145,7 +145,7 @@ namespace Library
             }
             return false;
         }
-        #endregion
+        #endregion 
 
 
         //Тут ексель
@@ -523,6 +523,7 @@ namespace Library
             }
             return false;
         }
+
         //Видаляю юзера з хмл файлу
         public static void RemoveUserFromXml(string UserName, string Path)
         {

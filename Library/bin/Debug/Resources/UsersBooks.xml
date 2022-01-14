@@ -1,4 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <usersbooks>
-  <User name="Valentynka" />
+  <User name="Vladik">
+    <Book name="Останній листок">
+      <year>1907</year>
+      <author>О.Генрі</author>
+      <genre>Новела</genre>
+      <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Останній листок.docx</path>
+    </Book>
+    <Book name="Тигролови">
+      <year>1946</year>
+      <author>Іван Багряний</author>
+      <genre>Повість</genre>
+      <path>C:\Users\Grynia\Desktop\Program\Resources\Books\Тигролови.docx</path>
+    </Book>
+  </User>
 </usersbooks>

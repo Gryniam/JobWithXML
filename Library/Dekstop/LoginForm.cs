@@ -83,6 +83,10 @@ namespace Library
                         else
                         {
                             MessageBox.Show("Welcome");
+                            if (!Directory.Exists(Program.wanted_path + "\\Resources\\Books"))
+                            {
+                                Directory.CreateDirectory(Program.wanted_path + "\\Resources\\Books");
+                            }
                         }
 
                         DbConnected = true;
